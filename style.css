@@ -1,0 +1,58 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; /* Equals the default border size of each div-box itself */
+}
+body{
+     background-image: url(background.jpg);
+}
+.part{
+     display: flex;
+     margin: 20px 150px;
+     padding: 20px;
+     border-radius: 15px;
+     background-image: url(background.jpg);
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.2) 0px 15px 12px; /* Applied double shadow */
+     min-height: 300px;
+     min-width: 600px;
+}
+h1{
+     text-align: center;
+     font-size:80px;
+     font-family: 'Times New Roman', Times, serif;
+     color: bisque;
+     margin: 60px 0px;
+
+}
+img{
+     width: 300px;
+     height: 100%;
+     transition: 0.5s;
+}
+img:hover{
+     width: 350px; /* Images get bigger when you hover */
+}
+h2{
+     color: rgb(244, 164, 96); /* color given h2 tags of each h2 elements at the beginning of each section Using mixed version of triple color*/
+     font-size: 32px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 50px;
+     margin-bottom: 20px;
+}
+p{
+     font-size: 20px;
+     text-indent: 20px; /* gives a small blank at the beginning of each p element */
+     color:bisque;
+     margin-left: 10px;
+}
+#button{
+    margin-top: 30px;
+    margin-left: 400px;
+
+}
+#button a{
+     color: orange;
+     text-decoration: none;
+     padding: 15px;
+     font-weight: 600;
+}
